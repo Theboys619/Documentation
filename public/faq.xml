@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="/css/style.css"?>
+<?xml-stylesheet type="text/css" href="/css/icons.css"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width" />
+		<title>EncodeLang | FaQ</title>
+		<script type="module" async="async" defer="defer" src="/js/script.js" />
+	</head>
+	<body>
+    <header> <!-- EJS WHEN? -->
+      <a id="logo" href="/">Encoded</a>
+      <nav>
+        <li><a href="/documentation">Documentation</a></li>
+        <li><a href="/downloads">Downloads</a></li>
+        <li><a href="/faq">FAQ</a></li>
+        <li><a href="/resources">Resources</a></li>
+      </nav>
+      <!-- <a href="#" -->
+      <!-- Why are so many tags double wrapped!? I presume this is pure laziness -->
+      <a href="javascript:void(0);" class="nav-burger"><i class="material-icons">menu</i></a>
+    </header>
+    <section id="mobile-links">
+      <a href="/documentation">Documentation</a>
+      <a href="/downloads">Downloads</a>
+      <a href="/faq">FAQ</a>
+      <a href="/resources">Resources</a>
+    </section>
+		<main>
+		<!-- xh: I want to help you.. but you got yourself into that mess -->
+      <!-- bRUH this looks not good. Don't feel like fixing rn -->
+      <h2 class="title">FAQ</h2>
+      <article class="main-info">
+        <div class="questions">
+          <div class="faq-response">
+            <span class="question">Q: What is the language's syntax?</span>
+            <br />
+            <span class="answer">A: ANSWER HERE</span>
+          </div>
+          <div class="faq-response">
+            <span class="question">Q: What is the language's purpose?</span>
+            <br />
+            <span class="answer">A: ANSWER HERE</span>
+          </div>
+          <div class="faq-response">
+            <span class="question">Q: What is the language's goal?</span>
+            <br />
+            <span class="answer">A: ANSWER HERE</span>
+          </div>
+          <div class="faq-response">
+            <span class="question">Q: Who do you plan on targetting?</span>
+            <br />
+            <span class="answer">A: ANSWER HERE</span>
+          </div>
+          <div class="faq-response">
+            <span class="question">Q: Why would anyone use this language over others?</span>
+            <br />
+            <span class="answer">A: ANSWER HERE</span>
+          </div>
+        </div>
+      </article>
+		</main>
+		<footer>&copy; 2020 Plogo.</footer>
+	</body>
+</html>

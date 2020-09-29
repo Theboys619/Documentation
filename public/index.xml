@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="/css/highlight.css"?>
+<?xml-stylesheet type="text/css" href="/css/style.css"?>
+<?xml-stylesheet type="text/css" href="/css/icons.css"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width" />
+		<!-- I like how often we're gramaticially incorrect though -->
+		<title>Encode | Modern. Simple. English.</title>
+		<base target="tab" />
+		<!-- if the base tag ends up being a bad idea, we can remove it -->
+		<script type="module" async="async" defer="defer" src="/js/script.js" />
+	</head>
+	<body>
+    <header>
+      <a id="logo" href="/">Encoded</a>
+      <nav>
+	  <!-- cut this down to just <a> tags, that <li> is useless -->
+        <li><a href="/documentation">Documentation</a></li>
+        <li><a href="/downloads">Downloads</a></li>
+        <li><a href="/faq">FAQ</a></li>
+        <li><a href="/resources">Resources</a></li>
+      </nav>
+	  <!-- get rid of these wraps -->
+      <a class="nav-burger"><i class="material-icons">menu</i></a>
+    </header>
+	<!-- ideal code: -->
+    <section id="mobile-links">
+      <a href="/documentation">Documentation</a>
+      <a href="/downloads">Downloads</a>
+      <a href="/faq">FAQ</a>
+      <a href="/resources">Resources</a>
+    </section>
+    <main>
+      <div class="info">
+        <div>
+		<!-- inline style is bad -->
+          <h1 class="deepblue" style = "font-size: 36px;">Introducing Encode</h1>
+          <p class="align-left">From the very basic syntax, to the legibility of the code, Encode can perform heavy tasks very quickly. Encode focuses on something we all know: English.</p>
+          <!-- I have a strong hatred towards div tags, but at least there weren't any weird wrapper tags for the fun of it -->
+          <!-- Now there is -->
+		  <!-- this should be an actual button element; or a styled <a> tag;
+		  css:
+		  a[download] {
+		  	...
+		  }
+		  -->
+          <!-- <div class="download">
+            <a href="#" class="btn action">Download Encode Installer</a>
+          </div> -->
+          <div class="download">
+            <a href="#" class="btn action">Download Encode Installer</a>
+            <a href="#" class="btn">Other Versions</a>
+            <p class="version">Latest Version: v0.0.0 <a href="#"><b>Changelog</b></a></p>
+          </div>
+        </div>
+
+		<!-- I legit feel bad for whoever didn't just use <code> and css: "white-space" attributes -->
+		<!-- omfg, you even used a code-block class... smh -->
+        <!-- it looks bad rn, because I used <code>; stop spamming divs, and especially don't style divs differently -->
+        <!-- Yea but it does look ugly. Just keep code blocks as divs ploc. -->
+		<div class="code-block align-left" data-lang="encode">set constant x to 5.
+
+create function factorial with num. {
+	{
+		return 1.
+	} if num is equal to 1 else {
+		return num * call factorial with num - 1.
+	}
+}
+
+call print with call factorial with x. // Prints 120</div>
+      </div>
+      <div>
+        <!-- <h2 class = "align-center deepblue" style = "font-size: 30px;">Encode QuickStart</h2>
+        <p class = "sixty"><b>Step 1: </b>Open terminal. Make sure you have 
+        <a class = "link" href = "https://nodejs.org/">Node.js</a>
+        installed.</p>
+        <p class = "sixty"><b>Step 2: </b>Install Encode by running this command globally. Make sure you are on an administrator account for this, and enter the respective computer password when asked.</p>
+        <p class = "code-block centered-60 install-script">
+          <span class = "green">sudo</span>
+          npm <span class = "blue">install</span> Encode 
+          <span class = "orange">-g</span>
+        </p> -->
+      </div>
+	  <!--footer ele instead-->
+      <div>
+        <h2 class = "align-center deepblue" style = "font-size: 30px;">Support Encode</h2>
+        <div style = "width: 60%; margin: auto;">
+          <p>Support Encode by joining our Discord Server. File bug reports on our Github issues page. Contribute to the language. Share this website with friends, and show them that they can program with a language they are already fluent in.</p>
+        </div>
+      </div>
+      <!--
+      <div class="download">
+        <a href="#" class="btn action">Download Encode Installer</a>
+        <a href="#" class="btn">Other Versions</a>
+        <p class="version">Latest Version: v0.0.0 <a href="#"><b>Changelog</b></a></p>
+      </div> -->
+    </main>
+		<footer>
+		  Copyright &copy; 2020 Encode Enc. All rights reserved.
+		</footer>
+	</body>
+</html>

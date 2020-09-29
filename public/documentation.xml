@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="/css/style.css"?>
+<?xml-stylesheet type="text/css" href="/css/icons.css"?>
+<?xml-stylesheet type="text/css" href="/css/highlight.css"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width" />
+		<title>Encode | Modern. Simple. English.</title>
+		<base target="tab" />
+		<script type="module" async="async" defer="defer" src="/js/script.js" />
+		<!-- if the base tag ends up being a bad idea, we can remove it -->
+	</head>
+	<body>
+    <header>
+      <a id="logo" href="/">Encoded</a>
+      <nav>
+        <li><a href="/documentation">Documentation</a></li>
+        <li><a href="/downloads">Downloads</a></li>
+        <li><a href="/faq">FAQ</a></li>
+        <li><a href="/resources">Resources</a></li>
+      </nav>
+      <a class="nav-burger"><i class="material-icons">menu</i></a>
+    </header>
+    <section id="mobile-links">
+      <a href="/documentation">Documentation</a>
+      <a href="/downloads">Downloads</a>
+      <a href="/faq">FAQ</a>
+      <a href="/resources">Resources</a>
+    </section>
+    <main>
+      <div>
+        <h1 class = "deepblue">Featured</h1>
+        <div class = "featured-container">
+          <div class = "featured-child align-left deepblue">
+            <span class = "h-no-pad">
+              <code>if, else</code>
+            </span>
+            <p>Learn the fundamentals to switches. If you learn now, you are cool. Else, you are missing out! Simple! </p>
+          </div>
+          <div class = "featured-child align-left deepblue">
+            <span class = "h-no-pad">
+              <code>function</code>
+            </span>
+            <p>Save a friend's phone number in a directory, then call them later! Learn how to make pieces of code and use them later.</p>
+          </div>
+          <div class = "featured-child align-left deepblue">
+            <span class = "h-no-pad">
+              <code>new array</code>
+            </span>
+            <p>Need to make lots of variables to store things? Well I could make it 
+            <code>variables - (variables - 1) </code> <i>variables</i>. Phew, that was a lot! Join us for data collection and databases.
+            </p>
+          </div>
+        </div>
+      </div>
+      <br/>
+       <h1 class = "deepblue">New</h1>
+        <div class = "featured-container">
+          <div class = "featured-child align-left deepblue">
+            <span class = "h-no-pad">
+              <code>if, else</code>
+            </span>
+            <p>Learn the fundamentals to switches. If you learn now, you are cool. Else, you are missing out! Simple! </p>
+          </div>
+          <div class = "featured-child align-left deepblue">
+            <span class = "h-no-pad">
+              <code>function</code>
+            </span>
+            <p>Save a friend's phone number in a directory, then call them later! Learn how to make pieces of code and use them later.</p>
+          </div>
+          <div class = "featured-child align-left deepblue">
+            <span class = "h-no-pad">
+              <code>new array</code>
+            </span>
+            <p>Need to make lots of variables to store things? Well I could make it 
+            <code>variables - (variables - 1) </code> <i>variables</i>. Phew, that was a lot! Join us for data collection and databases.
+            </p>
+          </div>
+    </div>
+    </main>
+		<footer>
+		  Copyright &copy; 2020 Encode Enc. All rights reserved.
+		</footer>
+	</body>
+</html>

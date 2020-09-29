@@ -1,0 +1,326 @@
+@import url('/css/fonts/roboto.css');
+/*  Defaults / Globals  */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+
+  background-color: rgba(241, 241, 241, 0.89);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration-line: none;
+
+  color: inherit;
+}
+
+/* Navbar */
+
+header {
+  display: flex;
+
+  width: 99.5%;
+  height: 50px;
+  
+  margin-top: 5px;
+
+  border-radius: 6px;
+
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: /*rgb(29, 48, 172)*/ rgb(10, 49, 122);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.deepblue {
+  color: rgb(10, 49, 122);
+}
+
+nav { /* <nav> */
+  height: inherit;
+
+}
+
+nav > li {
+	margin-top: 1em;
+
+	padding-right: 10px;
+
+	display: inline-block;
+
+	height: 100%;
+}
+
+nav > li > a {
+	color: white;
+
+	transition: 200ms ease-in-out background;
+	background-color: rgb(10, 49, 122);
+
+	padding: 15px;
+}
+
+nav a:hover {
+	background-color: rgba(15, 63, 153, 0.781);
+}
+
+#logo {
+	display: block;
+	color: white;
+	font-weight: 700;
+
+	padding-left: 10px;
+	font-size: 20px;
+}
+
+.nav-burger {
+  color: white;
+
+  margin-right: 12px;
+
+  cursor: pointer;
+}
+
+/* Mobile Navbar */
+
+#mobile-links {
+  display: none;
+  width: 99.5%;
+
+  padding: 2px;
+
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: rgba(100, 100, 100, 0.575);
+  color: white;
+}
+
+#mobile-links a {
+  display: block;
+
+  transition: 200ms ease-in-out background;
+
+  color: white;
+  padding: 16px;
+}
+
+#mobile-links a:hover {
+  background-color: rgba(110, 110, 110, 0.534)
+}
+
+@media screen and (min-width: 600px) {
+  .nav-burger {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+	nav {
+		display: none;
+	}
+}
+
+main {
+  padding: 8px;
+}
+
+.info {
+	/* Real funny; you meant "display: grid", right? */
+  /* Maybe */
+	display: table;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+	width: 95vw;
+
+	border-radius: 6px;
+	border-bottom: solid 1px rgba(150, 150, 150, 0.486);
+  margin: 6px auto 8px auto;
+	padding: 7px;
+	
+	border: none;
+	background: rgba(235, 232, 232, 0.699);
+}
+
+.info > div {
+  display: table-cell;
+  text-align: center;
+
+  padding: 15px;
+
+  width: 50%;
+}
+
+/* Footer */
+
+footer {
+  height: 48px;
+  margin-top: 1.2em;
+
+  text-align: center;
+
+  color: rgba(167, 167, 167, 0.822);
+}
+
+/* Title */
+
+.title {
+  color: rgba(117, 117, 117, 0.658);
+
+  text-align: center;
+}
+
+/* Faq Response */
+
+.faq-response {
+  margin: 12px 0 16px 0;
+}
+
+.question {
+  color: rgba(131, 131, 131, 0.692);
+  font-weight: 700;
+}
+
+.answer {
+  font-style: italic;
+}
+
+/* Version Paragraph */
+
+.download {
+  width: inherit;
+
+  text-align: center;
+
+  margin: 42px auto 4px auto;
+}
+
+.version {
+  color: rgba(145, 145, 145, 0.918);
+
+  font-size: 14.5px;
+}
+
+.version a:hover {
+  text-decoration: underline;
+}
+
+/* Helper Classes */
+
+.align-left {
+  text-align: left !important;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  color: #333;
+  background-color: white;
+
+  border: solid 1px #CCC;
+  border-radius: 5px;
+
+  transition: 200ms background-color ease;
+
+  margin-top: 6px;
+  padding: 0.4em 0.6em;
+}
+
+.btn:hover {
+  background-color: rgba(214, 214, 214, 0.89);
+}
+
+.btn.action {
+  border-color: rgb(35, 68, 177);
+  background: rgb(10, 49, 122);
+  color: white;
+  width: 100%;
+}
+
+.btn.action:hover {
+  background-color: rgba(13, 26, 141, 0.932);
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+/* Syntax Highlighting Colors*/
+
+.green {
+  color: #399120;
+}
+
+.orange {
+  color: #f59025;
+}
+
+.blue {
+  color: #2555f5;
+}
+
+.grey {
+  color: #5a5a5a;
+}
+
+.centered-60 {
+  width: 60%;
+  margin: auto;
+  padding: 10px 16px;
+}
+
+.sixty {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.install-script {
+  font-size: 15px;
+  font-family: monospace;
+}
+
+.link {
+  color:#1572b3;
+}
+
+.featured-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.featured-child {
+  flex: 1;
+  margin-right: 6px;
+  margin-left: 6px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  background: rgba(61, 61, 61, 0.04);
+  /*border: 0.01px solid rgb(10, 49, 122);*/
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+
+}
+
+.h-no-pad {
+  font-size: 21px;
+}
